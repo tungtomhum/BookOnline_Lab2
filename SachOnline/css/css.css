@@ -1,0 +1,75 @@
+﻿.ten {
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+}
+
+    .ten a {
+        text-decoration-line: none;
+    }
+
+.caption {
+    width: 180px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.thumbnail {
+    border: 2px solid #ddd;
+}
+
+.sp {
+    padding-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .pagination li {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background-color: #f0f0f0;
+        border: 1px solid #ddd;
+        margin-right: 1px;
+    }
+
+        .pagination li:hover {
+            background-color: skyblue;
+            color: white;
+            border-color: skyblue;
+        }
+
+        .pagination li a {
+            display: block;
+            text-decoration: none;
+            width: 28px;
+            height: 28px;
+        }
+.imgbook {
+    transition: all 1s ease-in;
+    width: 400px;
+}
+
+    .imgbook:hover {
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+
+.imgsachbannhieu {
+    width: 100px;
+}
+
+.size {
+    padding-top: 20px;
+    width: 200px;
+    height: 300px;
+}
